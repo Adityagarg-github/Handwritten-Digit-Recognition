@@ -49,10 +49,10 @@ Edit `TRAIN_DATA_IMG` and `USER_IMG` At line 190 and 191 if you want to use your
 ## Libraries and Environement:
 
 # NOTE: To run this code without errors, you need a virtualenv with the correct libraries.
--sudo apt-get install python3-venv 
--sudo apt-get install libgtk2.0-dev pkg-config
+* sudo apt-get install python3-venv 
+*sudo apt-get install libgtk2.0-dev pkg-config
 
--python3 -m venv github-test
+*python3 -m venv github-test
 -source github-test/bin/activate
 
 -pip3 install numpy==1.18
