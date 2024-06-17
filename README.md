@@ -62,25 +62,5 @@ pip3 install opencv-python==3.2.0.8
 pip3 install scikit-image==0.12.1
 pip3 install Pillow==2.2.2
 
-git clone https://github.com/pavitrakumar78/Python-Custom-Digit-Recognition.git
-
+git clone the repository
 python NEW_digit_recog.py
-```
-If you don't want to manually work with the versions, I've also added a tested requirements.txt file. Just intall whatever is in there and this script should run without any issues.
-
-The accuarcy may be lower. You will need to tune the hyperparams in the model and try modifying the image processing piepline.
-
-[PROBABLY DOES NOT WORK:]
-~~Tested on:  
-Windows 10    
-Python 3.5    
-
-~~Dependencies:  
-numpy 1.13.1  
-SciPy 0.19.0  
-OpenCv (cv2) 3.2.0
-~~
-
-## Similar Project
-I recently did a project where I use 2 CNNs to do both bounding box regression for detection and classification for digits on the street view house numbers dataset (SVHN). You can view the project here:  
-https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN
