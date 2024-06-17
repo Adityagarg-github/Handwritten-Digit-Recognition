@@ -50,17 +50,17 @@ Edit `TRAIN_DATA_IMG` and `USER_IMG` At line 190 and 191 if you want to use your
 
 # NOTE: To run this code without errors, you need a virtualenv with the correct libraries.
 * sudo apt-get install python3-venv 
-*sudo apt-get install libgtk2.0-dev pkg-config
+* sudo apt-get install libgtk2.0-dev pkg-config
 
-*python3 -m venv github-test
--source github-test/bin/activate
+* python3 -m venv github-test
+* source github-test/bin/activate
 
--pip3 install numpy==1.18
--pip3 install scipy==1.1.0
--pip3 install scikit-learn==0.21.3
--pip3 install opencv-python==3.2.0.8
--pip3 install scikit-image==0.12.1
--pip3 install Pillow==2.2.2
+* pip3 install numpy
+* pip3 install scipy
+* pip3 install scikit-learn
+* pip3 install opencv-python
+* pip3 install scikit-image
+* pip3 install Pillow
 
--git clone the repository
--python NEW_digit_recog.py
+* git clone the repository
+* python NEW_digit_recog.py
