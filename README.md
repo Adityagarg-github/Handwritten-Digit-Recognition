@@ -1,4 +1,4 @@
-# Python-Custom-Digit-Recognition
+# Python-Handwritten-Digit-Recognition
 
 You can apply a simple OCR on your own handrwitten digits using this python script.
 I have used OpenCV to pre-process the image and to extract the digits from the picture.
